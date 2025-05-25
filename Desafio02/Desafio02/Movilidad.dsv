@@ -1,0 +1,211 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="54dbb2c2-9868-497a-9703-a53ac31a2b39" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Movilidad</ID>
+  <Name>Movilidad</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6953" scrolltop="-4620" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24045" y="18860" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="hechos_movilidad" left="-128" top="508" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4255" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009f100000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_hechos_movilidad" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_region" left="6675" top="900" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_dim_region" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_fecha" left="-157" top="6168" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_dim_fecha" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-156" top="3955" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="1355" height="2713" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[hechos_movilidad-dim_fecha]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="243" y="6168" />
+                    <point x="243" y="5201" />
+                    <point x="899" y="5201" />
+                    <point x="899" y="4255" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3827" top="924" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3148" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[hechos_movilidad-dim_region]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="10" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6675" y="1323" />
+                    <point x="5401" y="1323" />
+                    <point x="5401" y="1281" />
+                    <point x="4127" y="1281" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-6953</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4620</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Movilidad</DataSourceID>
+  <Schema>
+    <xs:schema id="Movilidad" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Movilidad" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="18c1f7e4-7920-4943-9653-7c8715c57302">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_hechos_movilidad" msprop:design-time-name="20b920a8-e2eb-419d-8f4a-04fbfa2d0d4e" msprop:FriendlyName="hechos_movilidad" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="hechos_movilidad">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_fecha" msprop:FriendlyName="id_fecha" msprop:DbColumnName="id_fecha" msprop:design-time-name="765cca27-5dc2-48b7-911d-4475d91b929e" type="xs:int" />
+                  <xs:element name="id_region" msprop:FriendlyName="id_region" msprop:DbColumnName="id_region" msprop:design-time-name="e059a46a-eb9d-4122-a528-8d4628250fe1" type="xs:int" />
+                  <xs:element name="retail_and_recreation" msprop:FriendlyName="retail_and_recreation" msprop:DbColumnName="retail_and_recreation" msprop:design-time-name="e84e6a4e-d374-421c-9dad-1ec3ef5478b8" type="xs:double" minOccurs="0" />
+                  <xs:element name="grocery_and_pharmacy" msprop:FriendlyName="grocery_and_pharmacy" msprop:DbColumnName="grocery_and_pharmacy" msprop:design-time-name="361e586b-f25b-4781-960d-ddcb6e706f37" type="xs:double" minOccurs="0" />
+                  <xs:element name="parks" msprop:FriendlyName="parks" msprop:DbColumnName="parks" msprop:design-time-name="cac7a2a9-3965-49bd-813d-4b9711f9394d" type="xs:double" minOccurs="0" />
+                  <xs:element name="transit" msprop:FriendlyName="transit" msprop:DbColumnName="transit" msprop:design-time-name="399a82df-7970-4ba8-b489-93cc8c38997d" type="xs:double" minOccurs="0" />
+                  <xs:element name="workplaces" msprop:FriendlyName="workplaces" msprop:DbColumnName="workplaces" msprop:design-time-name="9a8a2907-2a89-4680-be25-91f70d3849e4" type="xs:double" minOccurs="0" />
+                  <xs:element name="residential" msprop:FriendlyName="residential" msprop:DbColumnName="residential" msprop:design-time-name="e0c97a6d-9b67-40e4-af1a-242071d8f251" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_region" msprop:design-time-name="7e0e0e1c-2f2a-447d-94f6-c27226159846" msprop:FriendlyName="dim_region" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="dim_region">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sub_region_1" msprop:FriendlyName="sub_region_1" msprop:DbColumnName="sub_region_1" msprop:design-time-name="600b0e51-888d-443d-a592-f04412903e01" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_region_2" msprop:FriendlyName="sub_region_2" msprop:DbColumnName="sub_region_2" msprop:design-time-name="2549163f-e38d-485e-a836-48d789aac02c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_region" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="id_region" msprop:DbColumnName="id_region" msprop:design-time-name="2a4ca010-5c4a-4267-b2c0-1e690be9e7c2" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_fecha" msprop:design-time-name="880d989d-e620-44bc-a815-8abac7a30f7f" msprop:FriendlyName="dim_fecha" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="dim_fecha">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fecha" msprop:FriendlyName="fecha" msprop:DbColumnName="fecha" msprop:design-time-name="3b523dc4-0278-4c75-a4c8-aec4bf6aec31" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="año" msprop:FriendlyName="año" msprop:DbColumnName="año" msprop:design-time-name="7b846b4d-80ca-4cf5-b489-3c16bd321101" type="xs:int" minOccurs="0" />
+                  <xs:element name="mes" msprop:FriendlyName="mes" msprop:DbColumnName="mes" msprop:design-time-name="ad195472-9828-4cb3-8b16-49b6983951e8" type="xs:int" minOccurs="0" />
+                  <xs:element name="dia" msprop:FriendlyName="dia" msprop:DbColumnName="dia" msprop:design-time-name="93baa7b2-d886-4ab4-b87e-d996ead402f9" type="xs:int" minOccurs="0" />
+                  <xs:element name="nombre_mes" msprop:FriendlyName="nombre_mes" msprop:DbColumnName="nombre_mes" msprop:design-time-name="8c1e7f59-1920-4ba1-a443-3bca782a4f65" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_fecha" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="id_fecha" msprop:DbColumnName="id_fecha" msprop:design-time-name="91c57933-46c7-4789-8264-0035960f4268" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_region" />
+          <xs:field xpath="id_region" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_fecha_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_fecha" />
+          <xs:field xpath="id_fecha" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="hechos_movilidad-dim_fecha" msdata:parent="dbo_dim_fecha" msdata:child="dbo_hechos_movilidad" msdata:parentkey="id_fecha" msdata:childkey="id_fecha" />
+          <msdata:Relationship name="hechos_movilidad-dim_region" msdata:parent="dbo_dim_region" msdata:child="dbo_hechos_movilidad" msdata:parentkey="id_region" msdata:childkey="id_region" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Movilidad xmlns="" />
+  </Schema>
+</DataSourceView>
